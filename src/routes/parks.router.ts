@@ -32,4 +32,5 @@ router.delete('/:id',(req,res,next)=>{
     });
     parks=deleteElm;
     return res.status(200).json({msg:'deleted..'})
-})
+});
+export default router;
