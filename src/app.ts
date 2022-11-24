@@ -1,5 +1,4 @@
 import express from 'express';
-import {z} from 'zod';
 import router from './routes/parks.router'
 const app =express();
 app.use(express.json());
